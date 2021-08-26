@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId:
+            clientSecret:
+          github:
+            clientId:
+            clientSecret:
+
+
+server:
+  port: 9191
